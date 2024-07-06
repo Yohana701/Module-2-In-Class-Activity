@@ -12,5 +12,6 @@ class QuartsToGallonsInteractive{
         gallonsNeeded = quartsNeeded/ QUARTS_IN_GALLONS;
         extraQuartsNeeded = quartsNeeded % QUARTS_IN_GALLONS;
         System.out.println("A job that needs " + quartsNeeded + " quarts requires " + gallonsNeeded + " gallons plus " + extraQuartsNeeded + " quarts. ");
+        
     }
 }
